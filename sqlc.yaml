@@ -8,3 +8,6 @@ sql:
       go:
         package: "database"
         out: "internal/database"
+        overrides:
+          - db_type: "decimal"
+            go_type: "float64"
