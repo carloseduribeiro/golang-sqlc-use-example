@@ -8,7 +8,12 @@ Example of using `sqlc` library with the Go.
 
 Docs: https://docs.sqlc.dev/en/latest/#
 
-### commands
+### commands:
+
+```shell
+# Generate sqlc code:
+sqlc generate
+```
 
 ## golang-migrate
 
